@@ -64,4 +64,4 @@ EventBookingSystem/
 │   │
 │   ├── 📄 Program.cs                      
 │   └── 📄 appsettings.json                
-- **QR Code Generation** – Generate QR codes for ticket validation at event entry  
+ 
