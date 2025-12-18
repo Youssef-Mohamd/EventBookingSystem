@@ -39,7 +39,7 @@ namespace EventBookingSystem
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EventBooking API", Version = "v1" });
 
-                // إضافة تعريف Security Scheme
+             
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
@@ -50,7 +50,7 @@ namespace EventBookingSystem
                     Description = "Enter 'Bearer' followed by space and your JWT token"
                 });
 
-                // إضافة Requirement علشان كل الـ endpoints يعرفوا يستخدموا الـ token
+                
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
