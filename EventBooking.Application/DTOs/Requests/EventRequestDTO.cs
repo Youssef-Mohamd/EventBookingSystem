@@ -39,4 +39,10 @@ namespace EventBooking.Application.DTOs.Requests
         public string? ImageUrl { get; set; }
 
     }
+
+
+    public class UpdateEventRequest : EventRequestDTO
+    {
+        public EventStatus Status { get; set; }
+    }
 }

@@ -25,6 +25,10 @@ namespace EventBookingSystem
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IEventService, EventService>();
             builder.Services.AddScoped<IBookingService, BookingService>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
+            builder.Services.AddScoped<IAdminService, AdminService>();
+
+
             // ----------------- 3. Controllers -----------------
             builder.Services.AddControllers();
 
